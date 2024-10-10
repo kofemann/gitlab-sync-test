@@ -1,0 +1,6 @@
+
+run build:
+  stage: build
+  image: almalinux:9-minimal
+  script:
+    - echo "Building the application"
