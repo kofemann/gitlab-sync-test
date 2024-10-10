@@ -17,7 +17,7 @@ jobs:
       - name: Mirror + trigger CI
         uses: SvanBoxel/gitlab-mirror-and-ci-action@0.6
         with:
-          args: "https://gitlab.desy.de/tigran/gitlab-sync-test"
+          args: "https://gitlab.desy.de/dcache/gitlab-sync-test"
         env:
           FOLLOW_TAGS: "true"
           FORCE_PUSH: "false"
